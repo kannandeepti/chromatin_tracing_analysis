@@ -20,7 +20,7 @@ _num_empty_frames = 0
 _image_dtype = np.uint16
 
 # library design tools
-from . import library_tools
+# from . import library_tools
 # function to process fitted spots
 from . import spot_tools
 # everything about gaussian fitting, imshow3d
@@ -38,7 +38,7 @@ from . import classes
 # functions for post analysis, including compartment, epigenomics
 from . import postanalysis
 # functions to generate figures
-from . import figure_tools
+#from . import figure_tools
 # functions to read and save images
 from . import io_tools
 # everything about domain analysis
